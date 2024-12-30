@@ -1,3 +1,5 @@
+package arrayList;
+
 public class linkedListT {
     // Node 클래스 (linkedList의 구성 요소)
     private static class Node {

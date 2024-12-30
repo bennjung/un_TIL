@@ -1,3 +1,5 @@
+package array;
+
 public class arrayT {
     // 1. 내부 배열 (정적 또는 동적 배열)
     private int[] array; // 배열 저장소

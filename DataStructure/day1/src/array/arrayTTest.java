@@ -1,6 +1,8 @@
+package array;
+
 public class arrayTTest {
     public static void main(String[] args) {
-        // 1. arrayT 인스턴스 생성 (초기 용량 5)
+        // 1. array.arrayT 인스턴스 생성 (초기 용량 5)
         arrayT arr = new arrayT(5);
 
         System.out.println("[1] 초기 상태 (size=0)");
@@ -64,7 +66,7 @@ public class arrayTTest {
         int currentSize = arr.getSize();
         // 현재 질문에서는 getSize() 메서드가 구현되지 않았을 수도 있으니,
         // 다음과 같은 방식으로 size 필드가 있다고 가정할 수도 있습니다.
-        // 만약 arrayT 클래스에 public int getSize()가 없다면 직접 추가해주세요!
+        // 만약 array.arrayT 클래스에 public int getSize()가 없다면 직접 추가해주세요!
 
         // ---------------------------------------------
         // 임시로 reflection 등을 쓰는 대신, 다음처럼 size 필드가 public이라고
@@ -78,7 +80,7 @@ public class arrayTTest {
             // 리플렉션 예외는 무시 (데모 용도)
         }
 
-        System.out.print("arrayT: [ ");
+        System.out.print("array.arrayT: [ ");
         for (int i = 0; i < currentSize; i++) {
             System.out.print(arr.get(i) + " ");
         }

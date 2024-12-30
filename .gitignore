@@ -1,0 +1,8 @@
+#Intellij IDEA 설정 파일
+.idea/
+
+#컴파일된 결과물 
+out/
+
+# macos 시스템 파일
+.DS_Store
